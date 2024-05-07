@@ -1,0 +1,6 @@
+[7/5/2024, 00:54:29] layer "slogan.png": Duplicate path: slogan.png
+[7/5/2024, 00:54:29] layer "egp.up.edu.pe": Unsupported extension: pe
+[7/5/2024, 00:54:29] layer "960 099 117   I   lm.nunezc@up.edu.pe": Unsupported extension: pe
+[7/5/2024, 00:54:29] layer "960 096 924   I   ne.arrietam@up.edu.pe": Unsupported extension: pe
+[7/5/2024, 00:54:29] layer "960 096 395   I   ml.pachecoco@up.edu.pe": Unsupported extension: pe
+[7/5/2024, 00:54:29] layer "960 096 871   I   rz.callaa@up.edu.pe": Unsupported extension: pe

@@ -130,7 +130,7 @@ a.btn-rojo{
     gap: 25px;
     height: 1064px;
     padding: 40px 160px;
-    background-image: url('../images/bg-landing_3.jpg');
+    background-image: url('../images/bg-landing.png');
 }
 .form{
     display: flex;
