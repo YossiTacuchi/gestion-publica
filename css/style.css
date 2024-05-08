@@ -512,6 +512,187 @@ a.btn-rojo{
 .h-fit{
     height: fit-content;
 }
+
+/***************************** respuesta   *************************+*/
+.txt-gracias{
+    color: #fff;
+    text-align: center;
+    width: 455px;
+    height: 455px;
+    margin-bottom: -50px;
+    padding: 20px 37px;
+    border-radius: 6px;
+    background-color: #ff66668f;
+}
+.divider-gracias{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+.text-gracias{
+    font-size: 18pt;
+}
+.text-gracias-contenido{
+    font-size: 13pt;
+    line-height: 1.25;
+}
+.text-nombre{
+    font-size: 17pt;
+}
+.text-cargo{
+    font-size: 13pt;
+}
+
+.body-respuesta{
+    background-color: #1d1d1b;
+}
+.content-respuesta-info{
+    background-color: #fff;
+    width: 1024px;
+    margin: 0 auto;
+}
+.content-respuesta-top-banner,
+.content-respuesta-main .main,
+.content-respuesta-info .info-2,
+.content-respuesta-banner .banner{
+    
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.content-respuesta-info .info{
+    width: 700px;
+    margin: 0 auto;
+}
+.content-respuesta-top-banner{
+    color: #fff;
+    background-color: #1d1d1b;
+}
+.content-respuesta-top-banner .top-banner{
+    padding: 20px 0px;
+}
+.content-respuesta-banner .banner{
+    padding: 15px 25px;
+    background-color:#776da1;
+}
+.content-respuesta-main .main{
+    justify-content: space-between;
+    gap: 20px;
+    height: 480px;
+    padding: 10px 30px;
+
+    background-image: url('../images/bg-gracias.jpg');
+    background-size: cover;
+}
+.content-respuesta-info .info{
+    padding: 60px 0px 20px;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: none;
+    background-color: #fff;
+}
+
+
+.divider-white{
+    width: 2px;
+    height: 76px;
+    background-color: #fff;
+}
+.titulo-reta{
+    line-height: 0.9;
+}
+.titulo-1{
+    font-size: 26pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.titulo-2{
+    font-size: 16pt;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+}
+.text-lidera{
+    font-size: 12pt;
+    letter-spacing: 1.5px;
+}
+.bloque-wsp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 700px;
+    padding: 10px 20px 18px;
+    font-size: 17pt;
+    color: #fff;
+    background-color: #e06666;
+    border-bottom-right-radius: 48px;
+}
+a.btn-conversemos{
+    margin-top: -22px;
+    font-size: 22pt;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.content-pregunta{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.pregunta{
+    color: #776da1;
+    font-size: 14pt;
+}
+.respuesta{
+    color: #1d1d1b;
+    font-size: 13pt;
+    padding-bottom: 10px;
+    line-height: 1.7;
+}
+a.btn-pequeno{
+    font-size: 13pt;
+    padding: 5px 8px;
+}
+.divider-plomo{
+    background-color: #AAAAAA;
+    height: 1px;
+    width: 100%;
+}
+.compartimos{
+    font-size: 16pt;
+    color: #474747;
+}
+.cuatro-preguntas{
+    color: #e06666;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.cuatro-preguntas .numero{
+    font-size: 36pt;
+}
+.cuatro-preguntas .letras{
+    font-size: 26pt;
+}
+.respecto{
+    font-size: 16pt;
+    color: #474747;
+}
+ul{
+    padding-left: 1rem;
+}
+.zoomx2{
+    transform: scale(1.2);
+}
+.columna-compartimos{
+    width: 50%;
+}
+.bg-footer{
+    background-image: url('../images/bg-footer.jpg');
+    height: 115px;
+}
+
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
     .content-main .main,
