@@ -11,7 +11,7 @@ fondo gris
 fondo negro
 #1d1d1b
 
-gradiente vertical #c9d244   #776da1
+gradiente vertical #c9d244   #00317e
 */
 @font-face {
     font-family: 'Work Sans Regular';
@@ -38,20 +38,30 @@ gradiente vertical #c9d244   #776da1
     src: url(../fonts/WorkSans-ExtraBold.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Libre CaslonText Regular';
+    src: url(../fonts/LibreCaslonText-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Libre CaslonText Bold';
+    src: url(../fonts/LibreCaslonText-Bold.ttf) format('truetype');
+}
+
+
+
 /* Aplica la fuente a los elementos deseados */
 body {
-    font-family: 'Work Sans Regular', sans-serif;
+    font-family: 'Libre CaslonText Regular', sans-serif;
 }
 
 .strong{
-    font-family: 'Work Sans Bold', sans-serif !important;
+    font-family: 'Libre CaslonText Bold', sans-serif !important;
 }
 .strong-2{
-    font-family: 'Work Sans Black', sans-serif !important;
+    font-family: 'Work Sans Bold' !important;
 }
-.strong-3{
-    font-family: 'Work Sans Extra Bold', sans-serif !important;
-}
+
 p{
     margin-bottom: 10px;
 }
@@ -98,6 +108,18 @@ a.btn-rojo{
 .content-info .info-2{
     width: 820px;
     margin: 0 auto;
+    color: #fff;
+    background-color: #e06666; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.content-info .info-3{
+    width: 820px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #1d1d1b; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .content-top-banner,
 .content-main,
@@ -106,20 +128,17 @@ a.btn-rojo{
     background-color: #fff;
 }
 .content-top-banner .top-banner{
-    padding: 70px 0px;
+    padding: 50px 0px;
 }
 .content-banner{
     padding: 55px 25px;
-    background-image: linear-gradient(to bottom,#7c72a5, #5b5284);
-    border-bottom: 15px solid #7c72a5;
+    background-color: #e06666;
 }
-.info-2-verde{
-    color: #fff;
-    background-image: linear-gradient(to bottom, #7c72a5,#5b5284); 
-    border-bottom: 20px solid #7c72a5;
-}
+
 .info-2-txt{
     font-size: 18pt;
+    line-height: 1;
+    font-family: 'Work Sans Black';
 }
 .content-info{
     padding: 25px 25px;
@@ -128,7 +147,7 @@ a.btn-rojo{
 .main{
     justify-content: space-between;
     gap: 25px;
-    height: 1064px;
+    height: 1150px;
     padding: 40px 160px;
     background-image: url('../images/bg-landing.png');
 }
@@ -141,18 +160,19 @@ a.btn-rojo{
     border-radius: 11px;
     background-color: rgba(255, 255, 255, .8);
 }
-.form .titulo-form{
+.titulo-form{
     display: flex;
     justify-content: center;
-    padding: 5px 10px;
-
+    padding: 0px 10px;
+    width: fit-content;
     font-size: 14pt;
-    background-color: #776da1;
+    font-family: 'Work Sans Black';
+    background-color: #e06666;
 }
-.form .subtitulo{
-    color: #776da1;
-    font-size: 7pt;
-    text-align: center;
+.subtitulo{
+    font-size: 12pt;
+    line-height: 1.15;
+    font-family: 'Work Sans Black';
 }
 .form .nota{
     text-align: center;
@@ -162,12 +182,15 @@ a.btn-rojo{
 .form .divider{
     width: 2px;
     height: 76px;
-    background-color: #776da1;
+    background-color: #00317e;
 }
 .subtitulo-form{
 
-    color: #1d1a19;
-    font-size: 7pt;
+    color: #e06666;
+    font-size: 10pt;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Work Sans Black';
 }
 .text-radio{
     width: 220px;
@@ -198,14 +221,14 @@ select.form-select{
 button.btn-verde,
 a.btn-verde{
     color: #fff;
-    background-color: #776da1;
-    border-color: #776da1;
+    background-color: #00317e;
+    border-color: #00317e;
 }
 button.btn-rojo,
 a.btn-rojo{
     color: #fff;
-    background-color: #f04e4e;
-    border-color: #f04e4e;
+    background-color: #e06666;
+    border-color: #e06666;
 }
 .btn-enviar{
     width: 100%;
@@ -222,20 +245,27 @@ a.btn-rojo{
     border-radius: 4px;
     box-shadow: 0px 0px 30px #1d1a191b;
     background-image: url('../images/bg-universidad.jpg');
-    background-size: 110%;
+    background-size: 100%;
+    background-color: #fff;
     background-repeat: no-repeat;
-    background-position-x: -15px;
+    background-position: top center;
 }
 .contorno{
     font-size: 9pt;
+    line-height: 1.25;
     text-transform: uppercase;
-    color: #776da1;
+    color: #00317e;
     padding: 5px 0;
     width: 180px;
+    height: 85px;
     text-align: center;
-
-    border-top: 2px solid #776da1;
-    border-bottom: 2px solid #776da1;
+    display: flex;
+    border-top: 2px solid #00317e;
+    border-bottom: 2px solid #00317e;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Work Sans Bold';
 }
 .txt-info{
     font-size: 8pt;
@@ -299,7 +329,103 @@ a.btn-rojo{
     margin: 0 auto;
 }
 .col-elegir{
-    width: 25%;
+    width: 240px;
+}
+.btn-descarga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    width: 290px;
+    height: 66px;
+    color: #fff;
+    font-family: 'Work Sans Black';
+    font-size: 14pt;
+    border-radius: 10px;
+    background-image: url('../images/btn-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-descarga:hover,
+.btn-descarga:active{
+    color: #ffffff !important;
+    box-shadow: 0px 0px 20px #1d1d1b56;
+}
+.malla{
+    display: flex;
+    flex: 1;
+    font-size: 14pt;
+    padding: 3px 0;
+    color: #262626;
+    border-bottom: 1px solid #262626;
+}
+
+
+/* ********************************** gestion publica  *************************** */
+.titulo-top{
+    font-size: 15pt;
+    color: #00317e;
+}
+.text-rojo{
+    color: #e06666 !important;
+}
+.text-bg-rojo{
+    width: fit-content;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    background-color: #e06666;
+}
+.text-bg-rojo.medium{
+    font-size: 22pt;
+    font-family: 'Work Sans Bold';
+}
+.texto-blanco{
+    font-size: 19pt;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    text-align: right;
+    width: fit-content;
+    font-family: 'Work Sans Black';
+    text-shadow: 0px 0px 15px #1d1d1b19;
+}
+.texto-gestion{
+    width: fit-content;
+    padding: 5px 20px;
+    color: #00317e;
+    font-size: 32pt;
+    text-transform: uppercase;
+    border: 2px solid #e27474;
+    background-color: #ffffff8f;
+}
+.text-gestion-efectiva{
+    font-size: 16pt;
+    line-height: 1.15;
+    font-family: 'Work Sans Regular';
+}
+.divider-white{
+    width: 36px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.divider-white-vertical{
+    width: 1px;
+    height: 200px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.text-modalidad{
+    text-align: center;
+    font-size: 12pt;
+    width: fit-content;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    font-family: 'Work Sans Black';
+}
+.icon-requisito{
+    width: 36px;
+    padding-right: 8px;
 }
 
 @media all and (max-width: 992px){
