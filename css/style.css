@@ -109,17 +109,16 @@ a.btn-rojo{
     width: 820px;
     margin: 0 auto;
     color: #fff;
+    margin-top: 30px;
     background-color: #e06666; 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .content-info .info-3{
     width: 820px;
-    margin: 0 auto;
+    margin: 30px auto 20px;
     color: #fff;
     background-color: #1d1d1b; 
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 .content-top-banner,
 .content-main,
@@ -139,6 +138,9 @@ a.btn-rojo{
     font-size: 18pt;
     line-height: 1;
     font-family: 'Work Sans Black';
+}
+.info-2-verde img {
+    height: fit-content;
 }
 .content-info{
     padding: 25px 25px;
@@ -286,21 +288,44 @@ a.btn-rojo{
 }
 .titulo-seccion{
     font-size: 10pt;
+    line-height: 1.25;
+    font-family: 'Work Sans Black';
 }
 .txt-dato{
     font-size: 9pt;
+    margin-bottom: 20px;
+    font-family: 'Work Sans Regular';
+}
+.txt-dato-2{
+    font-size: 9pt;
+    font-family: 'Work Sans Regular';
 }
 .content-contacto{
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
+.text-contacto-titulo{
+    font-size: 13pt;
+    font-family: 'Work Sans Black';
+    border-left: 5px solid #e06666;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    height: 16px;
+    line-height: 1;
+}
 .contacto{
-    font-size: 14pt;
+    font-size: 13pt;
+    font-family: 'Work Sans Regular';
 }
 .txt-dato a{
     color: #fff;
     text-decoration: none;
+}
+.contacta-nuestros{
+    font-size: 15pt;
+    letter-spacing: 0.5px;
+    font-family: 'Work Sans Black';
 }
 .cta-contacto{
     display: flex;
@@ -320,6 +345,9 @@ a.btn-rojo{
 }
 .text-footer{
     justify-content: center;
+}
+.text-footer a{
+    color: #fff;
 }
 .info-botones{
     color: #767676;
@@ -360,7 +388,11 @@ a.btn-rojo{
     color: #262626;
     border-bottom: 1px solid #262626;
 }
-
+.text-egp{
+    justify-content: center;
+    font-size: 24pt;
+    color: #000;
+}
 
 /* ********************************** gestion publica  *************************** */
 .titulo-top{
@@ -411,9 +443,10 @@ a.btn-rojo{
 }
 .divider-white-vertical{
     width: 1px;
-    height: 200px;
+    height: 220px;
     border-radius: 2px;
     background-color: #fff;
+    margin-top: 20px;
 }
 .text-modalidad{
     text-align: center;
@@ -427,7 +460,49 @@ a.btn-rojo{
     width: 36px;
     padding-right: 8px;
 }
+.carousel-column{
+    width: 180px;
+    padding: 25px 15px 35px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+}
+.carousel-column:nth-child(2n){
+    background-color: #ffcfcf;
+}
+.carousel-column .titulo-carousel{
+    gap: 5px;
+    height: 34px;
+    align-items: start;
+    color: #767474;
+    font-size: 13pt;
+    text-transform: uppercase;
+    font-family: 'Work Sans Black';
+}
+.carousel-column:nth-child(2n) .titulo-carousel{
+    color: #ff6666;
+}
 
+.carousel-column .titulo-carousel span{
+    font-size: 32pt;
+    line-height: 1;
+}
+.carousel-divider{
+    background-color: #6c6c6c;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0 20px;
+}
+.carousel-column:nth-child(2n) .carousel-divider{
+    background-color: #ff6666;
+}
+.carousel-column .contenido-carousel{
+    font-family: 'Work Sans Regular';
+    color: #454545;
+    font-size: 7pt;
+}
+.carousel-column:nth-child(2n) .contenido-carousel{
+    color: #454545;
+}
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
     .content-main .main,
@@ -472,5 +547,8 @@ a.btn-rojo{
     }
     .top-banner img {
         width: 165px;
+    }
+    .divider-white-vertical{
+        display: none;
     }
 }
