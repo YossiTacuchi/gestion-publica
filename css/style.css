@@ -236,6 +236,12 @@ a.btn-rojo{
     width: 100%;
     font-size: 16pt;
     text-transform: uppercase;
+    background-image: url(../images/btn-bg.png);
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Work Sans Regular';
 }
 .banner{
     justify-content: center;
