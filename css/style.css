@@ -531,8 +531,8 @@ a.btn-rojo{
         width: 100%;
     }
     .main{
-        padding: 0 20px;
-        height: 680px;
+        padding: 20px 20px;
+        height: 1360px;
         background-position-x: -50px;
         background-size: cover;
     }
@@ -562,5 +562,14 @@ a.btn-rojo{
     }
     .content-info .info-3{
         width: 100%;
+    }
+    .titulo-top{
+        font-size: 10pt;
+    }
+    .texto-gestion{
+        font-size: 20pt;
+    }
+    .form{
+        align-self: center;
     }
 }

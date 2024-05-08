@@ -37,7 +37,7 @@
                 <div class="texto-blanco ">CIERRE DE <br>INSCRIPCIONES</div>
                 <div class="text-bg-rojo medium">5 de junio</div>
             </div>
-            <div class="d-flex justify-content-end align-items-end gap-5 ">
+            <div class="d-flex flex-column flex-lg-row justify-content-end align-items-end gap-5 ">
 
                 <div class="d-flex flex-column gap-3">
                     <div class="text-gestion-efectiva">
@@ -157,116 +157,10 @@
                 </div>
             </div>
 
-            <div class="d-flex d-lg-none flex-column justify-content-between h-100 w-100 py-5">
-                <div class="d-block"><img src="images/titulo_responsive_3.png" alt="" class="float-end"></div>
-                <div class="d-block"><img src="images/logo_socio.png" alt="" class="float-start"></div>
-                
-            </div>
-            
+           
 
         </div>
-        <div class="bg-dark d-flex d-lg-none justify-content-center py-5">
-            <div class="form d-flex justify-content-center" id="form-responsive">
-                <div class="titulo-form">
-                    REQUISITOS:
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="d-flex flex-column align-items-center w-50 p-3 gap-2">
-                        <div class="d-block"><img src="images/birrete.png" alt="" class=""></div>
-                        <span class="subtitulo strong">Grado de bachiller universitario</span>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="d-flex flex-column align-items-center w-50 p-3 gap-2">
-                        <div class="d-block"><img src="images/maletin.png" alt=""></div>
-                        <span class="subtitulo strong">2 años de experiencia laboral posterior al grado de bachiller</span>
-                    </div>
-                </div>
-                <div class="subtitulo-form strong">
-                    Déjanos tus datos y nos pondremos en contacto contigo
-                </div>
-                <form>
-                    <div class="row">
-                        <div class="col">
-                            <!-- Columna izquierda -->
-                            <div class="d-flex flex-column gap-3">
-                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre *" required>
-                                <input type="text" class="form-control" id="celular" name="celular" placeholder="Celular *" required>
-                                <input type="text" class="form-control" id="correo" name="correo" placeholder="Correo *" required>
-                                <input type="text" class="form-control" id="carrera" name="carrera" placeholder="Carrera *" required>
-                                <input type="text" class="form-control" id="cargo" name="cargo" placeholder="Cargo *" required>
-                                <select class="form-select" id="horario" name="horario" required>
-                                    <option value="">Horario de Atención</option>
-                                    <!-- Agrega opciones para el horario aquí -->
-                                </select>
-                                <select class="form-select" id="departamento" name="departamento" required>
-                                    <option value="">Departamento</option>
-                                    <!-- Agrega opciones para el departamento aquí -->
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <!-- Columna derecha -->
-                            <div class="d-flex flex-column gap-3">
-                                <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="Apellidos *" required>
-                                <input type="text" class="form-control" id="dni" name="dni" placeholder="DNI *" required>
-                                <input type="text" class="form-control" id="centro_trabajo" name="centro_trabajo" placeholder="Centro de Trabajo *" required>
-                                <input type="text" class="form-control" id="universidad" name="universidad" placeholder="Universidad *" required>
-                                <select class="form-select" id="enterado" name="enterado" required>
-                                    <option value="">¿Cómo te enteraste?</option>
-                                    <!-- Agrega opciones para cómo se enteró aquí -->
-                                </select>
-                                <select class="form-select" id="contacto" name="contacto" required>
-                                    <option value="">Medio de Contacto</option>
-                                    <!-- Agrega opciones para el medio de contacto aquí -->
-                                </select>
-                                <select class="form-select" id="provincia" name="provincia" required>
-                                    <option value="">Provincia</option>
-                                    <!-- Agrega opciones para la provincia aquí -->
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-2 d-flex flex-column gap-2">
-                        <!-- Opciones de radio button -->
-                        <div class="d-flex align-items-center ">
-                            <div class="text-radio">¿Cuenta con grado bachiller?</div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="grado_bachiller" id="si_bachiller" value="si" required>
-                                <label class="form-check-label" for="si_bachiller">Sí</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="grado_bachiller" id="no_bachiller" value="no" required>
-                                <label class="form-check-label" for="no_bachiller">No</label>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="text-radio">Autorizo a Pacífico Business School a utilizar mis datos personales para los fines mencionados.</div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="autorizar_datos" id="si_autorizar" value="si" required>
-                                <label class="form-check-label" for="si_autorizar">Sí</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="autorizar_datos" id="no_autorizar" value="no" required>
-                                <label class="form-check-label" for="no_autorizar">No</label>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="text-radio">Autorizo a Pacífico Business School a que pueda utilizar mis datos personales por terceros.</div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="autorizar_terceros" id="si_terceros" value="si" required>
-                                <label class="form-check-label" for="si_terceros">Sí</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="autorizar_terceros" id="no_terceros" value="no" required>
-                                <label class="form-check-label" for="no_terceros">No</label>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-rojo mt-2 btn-enviar">Enviar</button>
-                    <p class="mt-2 nota">* Campos obligatorios. Ver <a href="//www.up.edu.pe/UP_Landing/terminos-condiciones/default.aspx" data-fancybox="terminos">Términos y Condiciones</a></p>
-                </form>
-            </div>
-        </div>
+        
     </div>
     <div class="content-banner">
         <div class="d-flex banner">
