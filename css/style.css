@@ -572,4 +572,12 @@ a.btn-rojo{
     .form{
         align-self: center;
     }
+    .carousel-column {
+        width: calc(100% / 3);
+    }
+}
+@media all and (max-width: 576px){
+    .carousel-column {
+        width: 100%;
+    }
 }
