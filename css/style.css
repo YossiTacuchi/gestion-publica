@@ -150,7 +150,7 @@ a.btn-rojo{
     justify-content: space-between;
     gap: 25px;
     height: 1150px;
-    padding: 40px 160px;
+    padding: 50px 160px 60px;
     background-image: url('../images/bg-landing.png');
 }
 .form{
@@ -509,6 +509,9 @@ a.btn-rojo{
 .carousel-column:nth-child(2n) .contenido-carousel{
     color: #454545;
 }
+.h-fit{
+    height: fit-content;
+}
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
     .content-main .main,
@@ -556,5 +559,8 @@ a.btn-rojo{
     }
     .divider-white-vertical{
         display: none;
+    }
+    .content-info .info-3{
+        width: 100%;
     }
 }
