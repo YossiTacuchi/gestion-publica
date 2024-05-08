@@ -549,7 +549,7 @@ a.btn-rojo{
         width: 100%;
     }
     .col-elegir{
-        width: 100%;
+        width: 48%;
     }
     .banner img {
         width: 300px;
@@ -578,6 +578,9 @@ a.btn-rojo{
 }
 @media all and (max-width: 576px){
     .carousel-column {
+        width: 100%;
+    }
+    .col-elegir{
         width: 100%;
     }
 }
