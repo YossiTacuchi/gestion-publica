@@ -856,6 +856,30 @@ ul{
         text-align: right;
         align-items: end;
     }
+    .content-respuesta-info{
+        width: 100%;
+    }
+    .content-respuesta-info .info{
+        width: 100%;
+        padding: 90px 0px 20px;
+    }
+    .bloque-wsp{
+        width: 100%;
+    }
+    .columna-compartimos{
+        width: 100%;
+    }
+    .seccion-compartimos{
+        align-items: center;
+        justify-content: center;
+    }
+    .body-respuesta .main{
+        padding: 10px 20px 0px;
+    }
+    .txt-gracias{
+        width: 100%;
+        margin-bottom: -80px;
+    }
 }
 @media all and (max-width: 576px){
     .carousel-column {
