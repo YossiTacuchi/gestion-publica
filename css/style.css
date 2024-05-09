@@ -768,6 +768,25 @@ ul{
     line-height: 1.25;
     font-family: 'Work Sans Black';
 }
+.bg-footer-asesores{
+    background-color: #e06666;
+    align-items: center;
+}
+.bg-footer-asesores .text-contacto-titulo{
+    border-left-color: #fff;
+    color: #fff;
+    margin-left: -15px;
+    text-transform: uppercase;
+    font-family: 'Work Sans Regular';
+}
+.bg-footer-asesores .contacto,
+.bg-footer-asesores .txt-dato div,
+.bg-footer-asesores .text-egp{
+    color: #fff;
+}
+.bg-footer-asesores .contacto{
+    font-family: 'Work Sans Black';
+}
 
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
