@@ -153,6 +153,14 @@ a.btn-rojo{
     padding: 50px 160px 60px;
     background-image: url('../images/bg-landing.png');
 }
+.body-respuesta .main{
+    justify-content: space-between;
+    gap: 0px;
+    height: 676px;
+    padding: 15px 120px 30px;
+    background-image: url(../images/bg-landing.png);
+    background-size: cover;
+}
 .form{
     display: flex;
     flex-direction: column;
@@ -515,11 +523,12 @@ a.btn-rojo{
 
 /***************************** respuesta   *************************+*/
 .txt-gracias{
+    font-family: 'Work Sans Bold';
     color: #fff;
     text-align: center;
     width: 455px;
-    height: 455px;
-    margin-bottom: -50px;
+    height: auto;
+    margin-bottom: -60px;
     padding: 20px 37px;
     border-radius: 6px;
     background-color: #ff66668f;
@@ -535,6 +544,7 @@ a.btn-rojo{
 .text-gracias-contenido{
     font-size: 13pt;
     line-height: 1.25;
+    font-family: 'Work Sans Regular';
 }
 .text-nombre{
     font-size: 17pt;
@@ -616,6 +626,7 @@ a.btn-rojo{
     letter-spacing: 1.5px;
 }
 .bloque-wsp{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -624,9 +635,19 @@ a.btn-rojo{
     padding: 10px 20px 18px;
     font-size: 17pt;
     color: #fff;
+    font-family: 'Work Sans Regular';
     background-color: #e06666;
-    border-bottom-right-radius: 48px;
 }
+.bloque-wsp::before {
+    content: "";
+    position: absolute;
+    bottom: 100%; /* Coloca el pseudo-elemento encima del contenido */
+    left: 75%;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent transparent #e06666 transparent;
+    transform: translateX(-50%); /* Centra horizontalmente el pseudo-elemento */
+  }
 a.btn-conversemos{
     margin-top: -22px;
     font-size: 22pt;
@@ -691,6 +712,52 @@ ul{
 .bg-footer{
     background-image: url('../images/bg-footer.jpg');
     height: 115px;
+}
+.rotar-texto{
+    position: relative;
+    width: 40px;
+}
+.text-90{
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: 65px;
+    right: -15px;
+}
+.btn-hablemos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    width: 155px;
+    height: 55px;
+    color: #fff;
+    font-family: 'Work Sans Bold';
+    font-size: 14pt;
+    line-height: 1.05;
+    border-radius: 10px;
+    background-image: url('../images/bg-btn-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-hablemos:hover,
+.btn-hablemos:active{
+    color: #ffffffb9;
+}
+.asesores{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+.asesores.ultimo{
+    border-bottom-color: transparent;
+}
+.nombre{
+    font-size: 13pt;
+    line-height: 1.25;
+    font-family: 'Work Sans Black';
 }
 
 @media all and (max-width: 992px){
