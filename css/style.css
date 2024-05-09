@@ -124,10 +124,11 @@ a.btn-rojo{
 .content-main,
 .content-contacto{
     color: #fff;
-    background-color: #fff;
+    background-color: #1d1d1b;
 }
 .content-top-banner .top-banner{
     padding: 50px 0px;
+    background-color: #fff;
 }
 .content-banner{
     padding: 55px 25px;
@@ -526,7 +527,7 @@ a.btn-rojo{
     font-family: 'Work Sans Bold';
     color: #fff;
     text-align: center;
-    width: 455px;
+    width: 440px;
     height: auto;
     margin-bottom: -60px;
     padding: 20px 37px;
@@ -539,10 +540,10 @@ a.btn-rojo{
     background-color: #fff;
 }
 .text-gracias{
-    font-size: 18pt;
+    font-size: 16pt;
 }
 .text-gracias-contenido{
-    font-size: 13pt;
+    font-size: 11pt;
     line-height: 1.25;
     font-family: 'Work Sans Regular';
 }
@@ -662,14 +663,16 @@ a.btn-conversemos{
     gap: 6px;
 }
 .pregunta{
-    color: #776da1;
+    color: #e06666;
     font-size: 14pt;
+    font-family: 'Work Sans Black';
 }
 .respuesta{
     color: #1d1d1b;
     font-size: 13pt;
     padding-bottom: 10px;
     line-height: 1.7;
+    font-family: 'Work Sans Bold';
 }
 a.btn-pequeno{
     font-size: 13pt;
@@ -683,22 +686,27 @@ a.btn-pequeno{
 .compartimos{
     font-size: 16pt;
     color: #474747;
+    font-family: 'Work Sans Bold';
 }
 .cuatro-preguntas{
     color: #e06666;
     display: flex;
     gap: 14px;
     align-items: center;
+    font-family: 'Work Sans Black';
 }
 .cuatro-preguntas .numero{
     font-size: 36pt;
+    font-family: 'Work Sans Black';
 }
 .cuatro-preguntas .letras{
     font-size: 26pt;
+    font-family: 'Work Sans Black';
 }
 .respecto{
     font-size: 16pt;
     color: #474747;
+    font-family: 'Work Sans Regular';
 }
 ul{
     padding-left: 1rem;
@@ -721,7 +729,8 @@ ul{
     position: absolute;
     transform: rotate(-90deg);
     bottom: 65px;
-    right: -15px;
+    right: -10px;
+    font-size: 11pt;
 }
 .btn-hablemos{
     display: flex;
