@@ -156,9 +156,9 @@ a.btn-rojo{
 .body-respuesta .main{
     justify-content: space-between;
     gap: 0px;
-    height: 676px;
-    padding: 15px 120px 30px;
-    background-image: url(../images/bg-landing.png);
+    height: 757px;
+    padding: 10px 120px 30px;
+    background-image: url(../images/bg-gracias.jpg);
     background-size: cover;
 }
 .form{
@@ -442,7 +442,7 @@ a.btn-rojo{
     font-size: 32pt;
     text-transform: uppercase;
     border: 2px solid #e27474;
-    background-color: #ffffff8f;
+    background-color: #ffffffcc;
 }
 .text-gestion-efectiva{
     font-size: 16pt;
@@ -531,7 +531,7 @@ a.btn-rojo{
     margin-bottom: -60px;
     padding: 20px 37px;
     border-radius: 6px;
-    background-color: #ff66668f;
+    background-color: #ff6666cc;
 }
 .divider-gracias{
     width: 100%;
@@ -588,7 +588,7 @@ a.btn-rojo{
 .content-respuesta-main .main{
     justify-content: space-between;
     gap: 20px;
-    height: 480px;
+    height: 757px;
     padding: 10px 30px;
 
     background-image: url('../images/bg-gracias.jpg');
